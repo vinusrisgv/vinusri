@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vinusri | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #24243e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333366;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcc70;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: white;
+            color: #764ba2;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333366;
+        }
+
+        .card {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .skills span {
+            background-color: #667eea;
+            color: white;
+            padding: 10px 18px;
+            border-radius: 20px;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #24243e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>VINUSRI S</h1>
+        <p>First-Year Computer Science Engineering Student</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="hero" id="home">
+        <h2>Hello, I'm Vinusri! 👋</h2>
+        <p>Aspiring Software Developer | Tech Enthusiast</p>
+        <p>Learning, creating, and growing one step at a time.</p>
+
+        <a href="#about" class="btn">Explore My Portfolio</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p>
+                I am a first-year Computer Science and Engineering student
+                at KPRIET. I am passionate about programming, technology,
+                and exploring new ideas.
+            </p>
+
+            <p>
+                I am currently learning C, Python, C++, and Java.
+                I enjoy participating in technical activities,
+                working on projects, and improving my problem-solving skills.
+            </p>
+
+            <p>
+                My goal is to become a skilled software developer
+                and build useful solutions for real-world problems.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="card">
+            <div class="skills">
+                <span>Python Basics</span>
+                <span>C Programming</span>
+                <span>C++ Basics</span>
+                <span>Java Basics</span>
+                <span>MySQL Basics</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Prompt Engineering</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>🌱 Solar-Powered Smart Mini Cold Storage</h3>
+            <p>
+                A Smart India Hackathon project idea focused on
+                preserving fresh vegetables using solar-powered
+                mini cold storage systems in the North Eastern Region
+                of India.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Personal Portfolio Website</h3>
+            <p>
+                A personal website created using HTML and CSS
+                to showcase my introduction, technical skills,
+                projects, and interests.
+            </p>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests & Hobbies</h2>
+
+        <div class="card">
+            <p>💡 Exploring Artificial Intelligence</p>
+            <p>💻 Learning new technologies</p>
+            <p>🎨 Mehendi and creative designs</p>
+            <p>🚀 Participating in hackathons</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="card contact">
+            <p>I'd love to connect and learn with others!</p>
+
+            <p>
+                Email:
+                <a href="mailto:yourmail@example.com">
+                    yourmail@example.com
+                </a>
+            </p>
+
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/" target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My LinkedIn
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">
+                    Visit My GitHub
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Vinusri S | Keep Learning, Keep Growing 🚀</p>
+    </footer>
+
+</body>
+</html>
